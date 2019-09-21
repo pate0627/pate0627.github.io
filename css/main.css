@@ -55,10 +55,6 @@ img{
     
 }
 
-input{
-	
-	
-}
 
 .form-control{
 	
@@ -84,8 +80,8 @@ h1{
     .media i:focus,
     .media i:hover{
         opacity: 0.4;
-		transition: 1.2s all ease;
-  transform: translateY(15px);
+	/*	transition: 1.2s all ease;
+  transform: translateY(15px); */
   
     }
 
@@ -93,6 +89,18 @@ h1{
     font-size: 5em;
 }
 
+h2{
+padding: 20px;
+}
+
+@media screen and (min-width: 400px){
+	
+.form-control{
+	
+	width: 55vw;
+}
+	
+}
 
 
 footer{
@@ -104,5 +112,5 @@ footer li:active,
     footer li:hover{
         opacity: 0.6;
 		transition: 1.2s all ease;
-  transform: translateX(10px);
+  transform: translateY(4px);
     }
