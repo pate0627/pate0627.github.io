@@ -9,8 +9,10 @@ nav{
     justify-content: flex-end;
     padding: 0.3em;
     font-size: 1.5rem;
-    
-    
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.9);
      
 }
 
